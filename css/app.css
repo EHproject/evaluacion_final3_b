@@ -1,7 +1,8 @@
+
 .grid-container{
   background-image: url("..//img/cocina.jpg");
   background-repeat: no-repeat;
-  background-position: fixed;
+  background-attachment: fixed
 }
 
 .principal{
@@ -13,13 +14,28 @@
   margin: 10px 30px;
 }
 
-.left-column{
-  background-color: #FFFFFF;
+.left-section{
+  margin-left: 20px;
+}
+
+.right-section{
+  margin-right: 20px;
 }
 
 .callout{
+
 }
 
 .logo{
   margin-top: 50px;
+  border-right: 1px solid #cccccc;
+  color: #FFFFFF;
+}
+
+.favoritos{
+  margin-top: 25px;
+}
+
+.usuarios{
+  height: 20px;
 }
