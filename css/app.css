@@ -15,11 +15,12 @@
 }
 
 .left-section{
-  margin-left: 20px;
+  margin: 5px;
+
 }
 
 .right-section{
-  margin-right: 20px;
+margin: 5px;
 }
 
 .callout{
@@ -38,4 +39,8 @@
 
 .usuarios{
   height: 20px;
+}
+
+.fechas{
+  color: rgba(102, 204, 255, 1);
 }

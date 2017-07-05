@@ -13,7 +13,7 @@
   <body>
     <div class="grid-container">
       <div class="row principal">
-        <div class="column small-12 medium-12 large-12">
+        <div class="column small-12 medium-12 large-12 hide-for-small-only">
           <div class="row">
             <div class="column small-4 medium-4">
               <div class="logo text-center">
@@ -26,9 +26,9 @@
         </div>
 
           <div class="row">
-            <div class="column small-4 medium-4 large-4">
+            <div class="column medium-4 large-4 hide-for-small-only">
               <div class="callout left-section">
-                <div class="top-bar-right">
+                <div class="top-bar expanded">
                   <ul class="menu">
                     <li><input class="buscador" type="search" placeholder="Buscar"></li>
                     <li><button type="button" class="button"><i class="fi-magnifying-glass"></i></button></li>
@@ -39,7 +39,6 @@
                       <li><a class="button expanded" href="#0"><b>INICIO</b></a></li>
                       <li><a class="button expanded" href="#0"><b>MI PLATO PERFECTO</b></a></li>
                       <li><a class="button expanded" href="#0"><b>RECETAS</b></a></li>
-                      <li><a class="button expanded" href="#0"><b>FAVORITOS</b></a></li>
                   </ul>
 
                   <div class="row favoritos">
@@ -71,16 +70,16 @@
                   </div>
 
                   <div class="row historial">
-                    <div class="column small-6 medium-12 large-12">
+                    <div class="column small-6 medium-12 large-12 ">
                       <h5>Historial</h5>
-                      <ul>
+                      <ul class="vertical menu">
                         <li><a href="#">Batidos Detox</a></li>
-                        <li><a href="#">Batidos Detox</a></li>
-                        <li><a href="#">Batidos Detox</a></li>
-                        <li><a href="#">Batidos Detox</a></li>
-                        <li><a href="#">Batidos Detox</a></li>
-                        <li><a href="#">Batidos Detox</a></li>
-                        <li><a href="#">Batidos Detox</a></li>
+                        <li><a href="#">Vegetales orgánicos</a></li>
+                        <li><a href="#">Fructosa + Calorías</a></li>
+                        <li><a href="#">Pasta y sus mitos</a></li>
+                        <li><a href="#">El Glúten y sus efectos</a></li>
+                        <li><a href="#">Contraste en Ensaladas</a></li>
+                        <li><a href="#">Jugos balanceados</a></li>
                       </ul>
                     </div>
                   </div>
@@ -88,13 +87,13 @@
               </div>
             </div>
 
-            <div class="column small-8 medium-8 large-8">
+            <div class="column small-12 medium-8 medium-center large-8 large-center">
               <div class="callout right-section">
 
                   <div class="media-object">
                     <div class="media-object-section">
                       <h4>Huerto Molecular.</h4>
-                      <p><em>martes 4 de Julio 2017.</em></p>
+                      <p><em class="fechas">martes 5 de Julio 2017.</em></p>
                     </div>
                   </div>
                   <div class="small-12 medium-12 columns">
@@ -102,11 +101,12 @@
                   </div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                   <hr>
+                  <p>Escribe un comentario</p>
                   <div class="input-group">
                     <span class="input-group-label"><i class="fi-torso"></i></span>
                     <input class="input-group-field" type="icon">
                     <div class="input-group-button">
-                      <input type="submit" class="button" value="Submit">
+                      <input type="submit" class="button" value="Publicar">
                     </div>
                   </div>
 
@@ -117,7 +117,17 @@
                       </div>
                     </div>
                     <div class="media-object-section">
-                      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p><b>Nicolas Hernandez:</b> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                  </div>
+                  <div class="media-object">
+                    <div class="media-object-section middle">
+                      <div class="thumbnail">
+                        <img src="img/grant_xs.jpg">
+                      </div>
+                    </div>
+                    <div class="media-object-section">
+                      <p><b>Enrique Herros:</b> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                   </div>
                   <div class="media-object">
@@ -127,24 +137,14 @@
                       </div>
                     </div>
                     <div class="media-object-section">
-                      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                  </div>
-                  <div class="media-object">
-                    <div class="media-object-section middle">
-                      <div class="thumbnail">
-                        <img src="img/snoop_xs.png">
-                      </div>
-                    </div>
-                    <div class="media-object-section">
-                      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p><b>Nicolas Hernandez:</b> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                   </div>
 
                   <div class="media-object">
                     <div class="media-object-section">
                       <h4>Pasta Artesanal.</h4>
-                      <p><em>martes 4 de Julio 2017.</em></p>
+                      <p><em class="fechas">martes 4 de Julio 2017.</em></p>
                     </div>
                   </div>
                   <div class="small-12 medium-12 columns">
@@ -156,7 +156,7 @@
                     <span class="input-group-label"><i class="fi-torso"></i></span>
                     <input class="input-group-field" type="icon">
                     <div class="input-group-button">
-                      <input type="submit" class="button" value="Submit">
+                      <input type="submit" class="button" value="Publicar">
                     </div>
                   </div>
 
@@ -167,7 +167,7 @@
                       </div>
                     </div>
                     <div class="media-object-section">
-                      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <p><b>Nicolas Hernandez:</b> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                   </div>
 
